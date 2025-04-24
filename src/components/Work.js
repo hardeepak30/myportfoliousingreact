@@ -1,9 +1,6 @@
 import React, { useState } from 'react';
 import tm from '../assets/text-to-speech.png';
-import l from '../assets/logo.png'
 import i from '../assets/icon.png'
-import a from '../assets/logo-white.png'
-import e from '../assets/eco.png'
 import c from '../assets/chat.png'
 import cr from '../assets/cr.png'
 import y from '../assets/logo.png'
@@ -40,12 +37,7 @@ const Work = () => {
       <div className='container mx-auto text-center'>
         <h2 className='text-[50px] mb-8 font-bold text-accent'>PROJECTS</h2>
         <div className='flex justify-center mb-8'>
-          {/* <button
-            className={`btn px-6 py-3 rounded-full transition-colors ${activeTab === 'software' ? 'bg-blue-600 text-white' : 'bg-gray-200 text-gray-700'}`}
-            onClick={() => handleTabChange('software')}
-          >
-            Software
-          </button> */}
+         
           <button
             className={`btn w-auto px-6 py-3 rounded-full transition-colors ml-4 ${activeTab === 'websites' ? 'bg-blue-600 text-white' : 'bg-gray-200 text-gray-700'}`}
             onClick={() => handleTabChange('websites')}
