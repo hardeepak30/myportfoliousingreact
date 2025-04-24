@@ -8,8 +8,8 @@ const skills = [
     { name: "MongoDB", image: "https://img.icons8.com/?size=80&id=8rKdRqZFLurS&format=png" }, // MongoDB
     { name: "C++", image: "https://cdn-icons-png.flaticon.com/128/6132/6132222.png" },
     { name: "Css", image: "https://cdn-icons-png.flaticon.com/128/732/732190.png" } ,
-    {name: "CSS", image: "https://cdn-icons-png.flaticon.com/128/888/888867.png"}
-];
+    {name: "CSS", image: "https://cdn-icons-png.flaticon.com/128/888/888867."}
+]; 
 
 const Skills = () => {
     return (
