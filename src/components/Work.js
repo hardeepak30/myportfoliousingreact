@@ -6,12 +6,13 @@ import a from '../assets/logo-white.png'
 import e from '../assets/eco.png'
 import c from '../assets/chat.png'
 import cr from '../assets/cr.png'
+import y from '../assets/logo.png'
 const projects = {
   software: [
-    { id: 1, title: 'Text to speech', image: tm, demoLink: 'https://github.com/sanchitbajaj123/Text-to-speech', viewLink: 'https://github.com/sanchitbajaj123/Text-to-speech' },
-    { id: 2, title: 'Attendance system', image:l, demoLink: 'https://github.com/sanchitbajaj123/Attendance-project-for-factory', viewLink: 'https://github.com/sanchitbajaj123/Attendance-project-for-factory' },
+    { id: 1, title: 'JMBB TRADING', image: tm, demoLink: 'https://github.com/hardeepak30/JMBM-Trading-Company', viewLink: 'https://jmbm-trading-company.vercel.app/' },
+    { id: 2, title: 'Real time chat box', image:y, demoLink: 'https://github.com/hardeepak30/JMBM-Trading-Company', viewLink: 'https://github.com/hardeepak30/JMBM-Trading-Company' },
     { id: 3, title: 'Digi park', image:i, demoLink: 'https://github.com/sanchitbajaj123/digi-park', viewLink: 'https://github.com/sanchitbajaj123/digi-park' },
-    { id: 3, title: 'Eco innovate', image:e, demoLink: 'https://github.com/sanchitbajaj123/ECO-INNOVATIVE', viewLink: 'https://github.com/sanchitbajaj123/ECO-INNOVATIVE' },
+    // { id: 3, title: 'Eco innovate', image:e, demoLink: 'https://github.com/sanchitbajaj123/ECO-INNOVATIVE', viewLink: 'https://github.com/sanchitbajaj123/ECO-INNOVATIVE' },
   ],
   
   websites: [

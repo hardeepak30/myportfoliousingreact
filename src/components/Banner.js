@@ -7,7 +7,7 @@ import { useInView } from 'react-intersection-observer';
 
 const Banner = () => {
   const controls = useAnimation();
-
+  
   const { ref, inView } = useInView({
     triggerOnce: false, 
     threshold: 0.1, 
@@ -54,7 +54,7 @@ const Banner = () => {
             Passionate CSE Student and Full Stack Developer | Innovating the Future of Development 🚀
           </p>
           <div>
-            <button className='btn btn-lg' onClick={handle}>Contact Me</button>
+            <button className='btn btn-lg' onClick={()=>{window.location.href="https://drive.google.com/drive/my-drive"}}>Resume</button>
           </div>
           <motion.div
             className='flex gap-x-6 max-w-max mx-auto lg:mx-8 mt-4'
